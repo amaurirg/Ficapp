@@ -1,0 +1,97 @@
+<h1>Formulário</h1>
+<form action="." method="post">
+    {% csrf_token %}
+    <p>
+        <label for="{{ form.data.id_for_label }}">{{ form.data.label }}</label>
+        {{ form.data.errors }}
+        {{ form.data }}
+    </p>
+    <p>
+        <label for="{{ form.carro.id_for_label }}">{{ form.carro.label }}</label>
+        {{ form.carro.errors }}
+        {{ form.carro }}
+    </p>
+    <p>
+        <label for="{{ form.consumo.id_for_label }}">{{ form.consumo.label }}</label>
+        {{ form.data.errors }}
+        {{ form.data }}
+    </p>
+    <p>
+        <label for="{{ form.combustivel.id_for_label }}">{{ form.combustivel.label }}</label>
+        {{ form.combustivel.errors }}
+        {{ form.combustivel }}
+    </p>
+    <p>
+        <label for="{{ form.app.id_for_label }}">{{ form.app.label }}</label>
+        {{ form.app.errors }}
+        {{ form.app }}
+    </p>
+    <p>
+        <label for="{{ form.horas.id_for_label }}">{{ form.horas.label }}</label>
+        {{ form.horas.errors }}
+        {{ form.horas }}
+    </p>
+    <p>
+        <label for="{{ form.corridas.id_for_label }}">{{ form.corridas.label }}</label>
+        {{ form.corridas.errors }}
+        {{ form.corridas }}
+    </p>
+    <p>
+        <label for="{{ form.cancelados.id_for_label }}">{{ form.cancelados.label }}</label>
+        {{ form.cancelados.errors }}
+        {{ form.cancelados }}
+    </p>
+    <p>
+        <label for="{{ form.recebido.id_for_label }}">{{ form.recebido.label }}</label>
+        {{ form.recebido.errors }}
+        {{ form.recebido }}
+    </p>
+    <p>
+        <label for="{{ form.incentivos.id_for_label }}">{{ form.incentivos.label }}</label>
+        {{ form.incentivos.errors }}
+        {{ form.incentivos }}
+    </p>
+    <p>
+        <label for="{{ form.incentivos_pendentes.id_for_label }}">{{ form.incentivos_pendentes.label }}</label>
+        {{ form.incentivos_pendentes.errors }}
+        {{ form.incentivos_pendentes }}
+    </p>
+    <p>
+        <label for="{{ form.cancelamentos.id_for_label }}">{{ form.cancelamentos.label }}</label>
+        {{ form.cancelamentos.errors }}
+        {{ form.cancelamentos }}
+    </p>
+    <p>
+        <label for="{{ form.total_recebido.id_for_label }}">{{ form.total_recebido.label }}</label>
+        {{ form.total_recebido.errors }}
+        {{ form.total_recebido }}
+    </p>
+    <p>
+        <label for="{{ form.km_inicial.id_for_label }}">{{ form.km_inicial.label }}</label>
+        {{ form.km_inicial.errors }}
+        {{ form.km_inicial }}
+    </p>
+    <p>
+        <label for="{{ form.km_final.id_for_label }}">{{ form.km_final.label }}</label>
+        {{ form.km_final.errors }}
+        {{ form.km_final }}
+    </p>
+    <p>
+        <label for="{{ form.km_percorrido.id_for_label }}">{{ form.km_percorrido.label }}</label>
+        {{ form.km_percorrido.errors }}
+        {{ form.km_percorrido }}
+    </p>
+    <p>
+        <label for="{{ form.valor_combustivel.id_for_label }}">{{ form.valor_combustivel.label }}</label>
+        {{ form.valor_combustivel.errors }}
+        {{ form.valor_combustivel }}
+    </p>
+    <p>
+        <label for="{{ form.extras.id_for_label }}">{{ form.extras.label }}</label>
+        {{ form.extras.errors }}
+        {{ form.extras }}
+    </p>
+    <p>
+        <input type="submit" value="Salvar">
+    </p>
+</form>

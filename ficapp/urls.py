@@ -14,11 +14,14 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from ficapp.core.views import home
+from ficapp.core.views import home, autorization
+from ficapp.formularios.views import formulario
 from django.urls import path
 
 
 urlpatterns = [
     path('', home),
+    path('autorization/', autorization),
+    path('formulario/', formulario),
     path('admin/', admin.site.urls),
 ]

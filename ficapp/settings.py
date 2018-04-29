@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'ficapp.core',
+    'ficapp.formularios',
 ]
 
 MIDDLEWARE = [
