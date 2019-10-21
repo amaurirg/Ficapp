@@ -12,4 +12,4 @@ PyYAML==3.12
 requests==2.18.4
 static3==0.7.0
 uber-rides==0.6.0
-urllib3==1.22
+urllib3==1.24.2
