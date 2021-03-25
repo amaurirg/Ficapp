@@ -8,7 +8,7 @@ idna==2.6
 psycopg2==2.7.4
 python-decouple==3.1
 pytz==2018.4
-PyYAML==3.12
+PyYAML==5.4
 requests==2.18.4
 static3==0.7.0
 uber-rides==0.6.0
